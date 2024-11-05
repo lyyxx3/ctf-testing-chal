@@ -8,6 +8,7 @@ Open file in VS code, most of the words is unreadable but there is a key word in
 So is time to ghidra it. (ghidra - A tool used for RE)
 
 ![image](https://github.com/user-attachments/assets/01b3776d-20d2-4d28-a86e-6151f01ad0db)
+
 Look at main function first, everything looks normal except for the xoring() function. 
 
 ![image](https://github.com/user-attachments/assets/e8de0769-6fff-4295-bbbc-08294719c474)
