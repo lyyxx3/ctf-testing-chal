@@ -12,11 +12,13 @@ So is time to ghidra it. (ghidra - A tool used for RE)
 Look at main function first, everything looks normal except for the xoring() function. 
 
 ![image](https://github.com/user-attachments/assets/e8de0769-6fff-4295-bbbc-08294719c474)
+
 Navigate to xoring() function, we can see the xor formula there ,the formula involves xor local_1f, local_29,int local_10 and int local_c.
 From the formula we can see evrything is converted into bytes with the (byte *) then xor is performed.
 To understand the program i run it in kali and get this output(picture below). 
 
 ![image](https://github.com/user-attachments/assets/a4f272c4-a5f0-46f4-803b-050f5c4437eb)
+
 The program just output a weird string. 
 So here is the whole process after looking at the code, the program will take local_1f(fZjkMyeQWVmmbk) XOR with the local_29(123456789, you can get this can converting hex to ASCII)
 
