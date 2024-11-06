@@ -1,4 +1,4 @@
-RE chal by jiapoh
+RE chal by CoffeeSoDa
 
 ![image](https://github.com/user-attachments/assets/e96edbb5-f296-4dfc-8742-360fd53f8118)
 The challenge will require us to download a file
