@@ -19,8 +19,8 @@ To understand the program i run it in kali and get this output(picture below).
 
 ![image](https://github.com/user-attachments/assets/a4f272c4-a5f0-46f4-803b-050f5c4437eb)
 
-The program just output a weird string. 
-So here is the whole process after looking at the code, the program will take local_1f(fZjkMyeQWVmmbk) XOR with the local_29(123456789, you can get this can converting hex to ASCII)
+The program just output a weird string.
+So in order to get the flag,we will take local_1f(fZjkMyeQWVmmbk) XOR with the local_29(123456789, you can get this can converting hex to ASCII)
 
 And here is the flag
 ![image](https://github.com/user-attachments/assets/53bea60d-71de-4de1-aeda-3137f43e94a1)
